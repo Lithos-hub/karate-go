@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="min-h-screen bg-[#eee]">
     <NuxtPage />
   </div>
 </template>
@@ -8,7 +8,13 @@
 useSeoMeta({
   title: 'Karate-Go | La web para aprender todo sobre el Karate',
   description:
-    'Karate-Go es una web para aprender todo sobre el Karate, con videos, artículos, cursos y mucho más.',
+    'Karate-Go es una web para aprender todo sobre el Karate, con videos, artículos, cursos y mucho más.'
+})
+
+useHead({
+  htmlAttrs: {
+    class: 'light'
+  }
 })
 </script>
 
