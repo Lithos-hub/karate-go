@@ -6,4 +6,12 @@
 
   --color-primary: #d43737;
   --color-secondary: #5537db;
+
+  --color-surface-light: #eee;
+  --color-surface-dark: #202020;
+}
+
+html,
+body {
+  @apply bg-surface-light;
 }

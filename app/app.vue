@@ -1,6 +1,8 @@
 <template>
-  <div class="min-h-screen bg-[#eee]">
-    <NuxtPage />
+  <div class="min-h-screen">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
@@ -17,5 +19,3 @@ useHead({
   }
 })
 </script>
-
-<style scoped></style>
